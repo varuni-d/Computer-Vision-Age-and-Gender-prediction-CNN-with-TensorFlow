@@ -1,0 +1,15 @@
+Age and Gender predicting using Deep Learning
+
+Dataset
+
+The IMDB-Wiki dataset will be utilized to make age and gender predictions.
+
+Download the IMDB dataset:
+curl https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar -o <output file path>
+
+
+
+References
+
+[1]https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
+
