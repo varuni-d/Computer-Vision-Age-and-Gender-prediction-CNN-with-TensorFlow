@@ -7,6 +7,11 @@ The IMDB-Wiki dataset will be utilized to make age and gender predictions.
 Download the IMDB dataset:
 curl https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar -o <output file path>
 
+Similarly, obtain the Wiki dataset. These folders containing unput images will be read by the img_preprocess.py program.
+
+img_preprocess.py: Read images, preprocess as input for the convolutional neural network (CNN).
+age_model.py, gender_model.py: Apply CNN to compute age (as regression) and gender (as classification), repectively.
+multitask_cnn.py: Apply multi-task CNN model to obtain above results. 
 
 
 References
